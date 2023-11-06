@@ -1,120 +1,199 @@
 /* Add your CSS to this file */
-.container, ul{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    align-items:center;
-    padding: 10px;
+ ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items:center;
+  padding: 20px;
+}
+.overview-hero img{
+  margin-right: 40px;
+}
+
+.overview-hero .container{
+  padding: 50px 0px;
+  display: flex;
+}
+
+
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 18px; 
+}
+
+header a {
+  font-size: 18px;
 }
 
 .container li {
-    margin-right: 10px; /* Add some margin for spacing */
+  font-weight: bold;
+  margin-right: 10px; /* Add some margin for spacing */
+}
+
+nav ul li a{
+  font-size: 18px;
+  color: #6b7280;
+  text-decoration: none;
+
+}
+
+nav ul li a:hover {
+  color: #5A67D8;
 
 }
 
 .container{
-    margin-top: auto;
+  margin-top: 20px;
 }
 
 .overview-hero{
-    background-color:#E2E8F0;
+  background-color:#E2E8F0;
 }
 
-.learn-about{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-}
 
+.cards
+{
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
 .card{
-    border-radius: 5px;
-    border: 1px solid;
-    padding: 20px;
-    box-shadow: 0px 5px #E2E8F0;
-    text-align:left
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: rgb(171, 171, 171);
+  padding: 20px;
+  box-shadow: 0px 5px #E2E8F0;
+  text-align:left
 }
 
-.learn-about h2, .learn-about h3{
-    color: #48BB78;
+.learn-about h2 {
+  font-size: 24px;
+  color: #48BB78;
 }
 
-.learn-about h2{
-    font-size: 24px;
+
+
+.learn-about h3 {
+  color: #48BB78;
+  font-size: 21px;
 }
 
-.learn-about h3{
-    font-size: 21px;
-}
 
 .testing{
-    background-color: #4A5568;
-    color: white;
+  background-color: #4A5568;
+  color: white;
 }
 
 .stories h2,.stories a{
-    font-weight: bold;
-    color: #5A67D8;
+  font-weight: bold;
+  color: #5A67D8;
 }
 .article-body h3{
-    font-size: 18px;
+  font-size: 18px;
 }
 
 body {
-    margin: 0;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-size: 18px;
 }
 
-img{
-    width: 260px;
-    height: 180px;
+
+
+.card img,.overview-hero img{
+  width: 260px;
+  height: 180px;
 }
 
-.stories{
-    display: grid;
-    grid-template-rows: repeat(1, 1fr);
-    gap: 10px; 
-}
 
 .article-body{
-    padding: 20px;
-    text-align:left
+  padding: 20px;
+  text-align:left
 }
 
 .stories-images{
-    float: left;
-    margin-right: 10px;
-    width: 200px;
-    height: 350px;
-    border-radius: 100%;
+  float: left;
+  margin-right: 10px;
+  width: 200px;
+  height: 350px;
+  border-radius: 100%;
 }
 
-.life{
-    width: 170px;
-    height: 180px;
-    padding-right: 10px;
+article{
+  display: flex;
+}
+
+article img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .container {
-    margin: 0 auto;
-    max-width: 960px;
-    width: 100%;
+  margin: 0 auto;
+  max-width: 960px;
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.testing .container{
+  display: flex;
+  align-items: center;
 }
 
 .newsletter{
-    background-color: #48BB78;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    align-items: center;
+  background-color: #48BB78;
+
+  color: white;
+}
+.newsletter .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
 
+
 .btn{
-    background-color: #5A67D8;
+  background-color: #5A67D8;
 }
 
 footer{
-    background-color: #4A5568;
-    color: white;
+  background-color: #4A5568;
+  color: white;
+}
+
+.cta a{
+  padding: 15px;
+  background-color: #48BB78;
+  color: white;
+}
+
+.cta{
+  margin-left: 20px;
+
+  width: 30%;
+}
+form{
+  display: flex;
+}
+form input{
+  padding: 10px 20px;
+}
+
+button{
+  color: white;
+  padding: 10px;
+  margin-left: 15px;
+}
+a{
+  text-decoration: none;
 }
